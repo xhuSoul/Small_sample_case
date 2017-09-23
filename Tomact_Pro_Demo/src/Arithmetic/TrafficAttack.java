@@ -10,7 +10,7 @@ public class TrafficAttack extends Thread{
 	private double u[] ,S[], A[], N[], y[]; //
 	//private final int Detection_Time = 25;//规定 检测时间为25秒
 	
-	
+	int i;
 	/**
 	 * 从服务器获取与检测时间对应的T个统计数据 初始化N数组
 	 * */
